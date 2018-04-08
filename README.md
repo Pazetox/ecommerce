@@ -8,7 +8,9 @@ Template usado no projeto [Almsaeed Studio](https://almsaeedstudio.com)
   git config --global user.name "pazetox"
 
 
-==inicializa um novo git.
+git  clone https://github.com/Pazetox/ecommerce.git
+---------------------------------------------------
+inicializa um novo git.
 git init 
 
 git remote add origin https://github.com/Pazetox/ecommerce.git
