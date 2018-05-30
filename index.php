@@ -31,7 +31,7 @@ $app->get('/admin', function() {
 $app->get('/admin/login', function() {
 	$dados= ["header"=> false, "footer"=>false];
 	$page = new PageAdmin($dados);
-	$page->setTpl("login");
+	$page->setTpl("login",array());
 });
 
 $app->post('/admin/login', function() {

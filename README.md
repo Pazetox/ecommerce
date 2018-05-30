@@ -24,3 +24,7 @@ git push origin master
 ------
 quando adiciona uma pasta nova ao projeto . avisar ao composer a nova pasta
 composer dump-autoload
+
+--
+composer update
+composer dump-autoload
